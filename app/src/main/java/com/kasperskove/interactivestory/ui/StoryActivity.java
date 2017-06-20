@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.kasperskove.interactivestory.R;
+import com.kasperskove.interactivestory.model.Page;
+import com.kasperskove.interactivestory.model.Story;
 
 public class StoryActivity extends AppCompatActivity {
 
@@ -22,5 +24,8 @@ public class StoryActivity extends AppCompatActivity {
             name = "Friend";
         }
         Log.d(TAG, name);
+
+        Story story = new Story();
+
     }
 }
